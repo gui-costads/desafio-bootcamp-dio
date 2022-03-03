@@ -5,9 +5,11 @@ public class Main {
     public static void main(String[] args) {
 
         Curso curso = new Curso();
+
         curso.setTitulo("curso Java");
-        curso.setCargaHoraria(40);
         curso.setDescricao("Descricao: curso de java");
+        curso.setCargaHoraria(8);
+        curso.calcularXp();
 
     }
 }
